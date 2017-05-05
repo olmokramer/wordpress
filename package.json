@@ -1,0 +1,17 @@
+{
+	"name": "website_name",
+	"description": "website_name",
+	"version": "0.0.0",
+	"repository": "",
+	"devDependencies": {
+		"babel-cli": "^6.24.0",
+		"babel-preset-babili": "0.0.12",
+		"babel-preset-latest": "^6.24.0",
+		"cssnano": "^3.10.0",
+		"postcss": "^5.2.16",
+		"postcss-cli": "^3.0.0",
+		"postcss-cssnext": "^2.10.0",
+		"postcss-import": "^9.1.0",
+		"svgo": "^0.7.2"
+	}
+}

@@ -1,0 +1,10 @@
+# Generated files
+*.out
+Sourcedeps
+
+# site specific stuff
+.htaccess
+wp-config.php
+wp-content/themes
+wp-content/uploads
+
