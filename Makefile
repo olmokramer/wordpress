@@ -1,14 +1,11 @@
-# You can put build options or custom tasks here
--include config.mk
-
-THEME_NAME ?= my_theme
-THEME_DIR = wp-content/themes/$(THEME_NAME)
-
 CSS = $(wildcard src/css/*.css)
 JS  = $(wildcard src/js/*.js)
 PHP = $(wildcard src/php/*.php)
 SVG = $(wildcard src/svg/*.svg)
 SRC = $(CSS) $(JS) $(PHP) $(SVG)
+
+# You can put build options or custom tasks here
+-include config.mk
 
 PATH := node_modules/.bin:$(PATH)
 MKDIR = @mkdir -p $(dir $@)
